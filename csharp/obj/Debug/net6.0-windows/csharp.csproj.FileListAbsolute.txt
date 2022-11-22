@@ -1,0 +1,17 @@
+D:\ace\csharp\csharp\bin\Debug\net6.0-windows\csharp.exe
+D:\ace\csharp\csharp\bin\Debug\net6.0-windows\csharp.deps.json
+D:\ace\csharp\csharp\bin\Debug\net6.0-windows\csharp.runtimeconfig.json
+D:\ace\csharp\csharp\bin\Debug\net6.0-windows\csharp.dll
+D:\ace\csharp\csharp\bin\Debug\net6.0-windows\csharp.pdb
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.csproj.AssemblyReference.cache
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.Form1.resources
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.csproj.GenerateResource.cache
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.AssemblyInfoInputs.cache
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.AssemblyInfo.cs
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.csproj.CoreCompileInputs.cache
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.dll
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\refint\csharp.dll
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.pdb
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\csharp.genruntimeconfig.cache
+D:\ace\csharp\csharp\obj\Debug\net6.0-windows\ref\csharp.dll
