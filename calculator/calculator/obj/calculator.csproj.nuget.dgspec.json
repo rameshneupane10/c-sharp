@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ace\\c-sharp\\csharp\\csharp.csproj": {}
+    "D:\\ace\\calculator\\calculator\\calculator.csproj": {}
   },
   "projects": {
-    "D:\\ace\\c-sharp\\csharp\\csharp.csproj": {
+    "D:\\ace\\calculator\\calculator\\calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ace\\c-sharp\\csharp\\csharp.csproj",
-        "projectName": "csharp",
-        "projectPath": "D:\\ace\\c-sharp\\csharp\\csharp.csproj",
+        "projectUniqueName": "D:\\ace\\calculator\\calculator\\calculator.csproj",
+        "projectName": "calculator",
+        "projectPath": "D:\\ace\\calculator\\calculator\\calculator.csproj",
         "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
-        "outputPath": "D:\\ace\\c-sharp\\csharp\\obj\\",
+        "outputPath": "D:\\ace\\calculator\\calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

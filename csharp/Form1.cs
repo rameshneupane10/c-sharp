@@ -19,16 +19,17 @@ namespace csharp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            /*
             try
             {
-                int age_input=Convert.ToInt32(age.Text);
-                MessageBox.Show("age:" + age_input);
+              //  int age_input=Convert.ToInt32(age.Text);
+               // MessageBox.Show("age:" + age_input);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("invalid ");
             }
-           /*
+           
          
             
 
@@ -51,6 +52,23 @@ namespace csharp
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(username="ramesh")
+                
+                 
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
