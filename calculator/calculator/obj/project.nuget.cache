@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uBwRO04qyYqt0cNwq8SFQ+jkHu25oIi91yklM2rNEIM6A5TPMMWHwebprBGMy3/AGmWiI9wXvf31HjpnxOJPMw==",
+  "dgSpecHash": "hVgx/lCKifaG1ggPx2QwhTjAAQjsDbd70X/Ta7QS+z1KwbodKxpXcfA2LMx+CKxp3nAlCK9Pcjemo98X8HQ55w==",
   "success": true,
-  "projectFilePath": "D:\\ace\\calculator\\calculator\\calculator.csproj",
+  "projectFilePath": "D:\\ace\\c-sharp\\calculator\\calculator\\calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
