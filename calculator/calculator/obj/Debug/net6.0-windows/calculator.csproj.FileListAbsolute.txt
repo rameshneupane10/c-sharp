@@ -32,3 +32,5 @@ D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\refint\calculator.
 D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\calculator.pdb
 D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\calculator.genruntimeconfig.cache
 D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\ref\calculator.dll
+D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\calculator.Form2.resources
+D:\ace\c-sharp\calculator\calculator\obj\Debug\net6.0-windows\calculator.Properties.Resources.resources
