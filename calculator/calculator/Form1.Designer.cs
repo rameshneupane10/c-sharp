@@ -45,6 +45,7 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button17 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -232,11 +233,23 @@
             this.textBox1.Size = new System.Drawing.Size(306, 82);
             this.textBox1.TabIndex = 1;
             // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Cyan;
+            this.button17.Location = new System.Drawing.Point(92, 300);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(199, 42);
+            this.button17.TabIndex = 2;
+            this.button17.Text = "connect";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button17);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button12);
@@ -281,5 +294,6 @@
         private Button button15;
         private Button button16;
         private TextBox textBox1;
+        private Button button17;
     }
 }

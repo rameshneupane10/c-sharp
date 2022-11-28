@@ -1,9 +1,13 @@
+using System.Data.SqlClient;
+
 namespace calculator
 {
     public partial class Form1 : Form
     {
         string operate= "";
         decimal calculation = 0;
+        SqlConnection conn = new SqlConnection("Data Source= DESKTOP-08I2U23\\SQLEXPRESS;Initial catalog=bit3rdsem;user id =sa ;password=kist@123;");
+        
         public Form1()
         {
             InitializeComponent();
@@ -222,5 +226,15 @@ namespace calculator
             textBox1.Clear();
         }
 
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+            conn.Open();
+            string query = "Insert into Student values('sandip','samakhushi','98476767','NIST')";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("saved successfully");
+            conn.Close();
+        }
     }
 }
