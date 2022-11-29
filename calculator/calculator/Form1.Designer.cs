@@ -46,6 +46,16 @@
             this.button16 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button20 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -236,19 +246,101 @@
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.Cyan;
-            this.button17.Location = new System.Drawing.Point(92, 300);
+            this.button17.Location = new System.Drawing.Point(86, 295);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(199, 42);
+            this.button17.Size = new System.Drawing.Size(81, 42);
             this.button17.TabIndex = 2;
-            this.button17.Text = "connect";
+            this.button17.Text = "insert";
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.Cyan;
+            this.button18.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button18.Location = new System.Drawing.Point(182, 295);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 42);
+            this.button18.TabIndex = 3;
+            this.button18.Text = "update";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.Cyan;
+            this.button19.Location = new System.Drawing.Point(275, 295);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 42);
+            this.button19.TabIndex = 4;
+            this.button19.Text = "delete";
+            this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Cyan;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlText;
+            this.dataGridView1.Location = new System.Drawing.Point(57, 343);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(578, 102);
+            this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "SN";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Name";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Address";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Contact";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "College";
+            this.Column5.Name = "Column5";
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Aqua;
+            this.button20.Location = new System.Drawing.Point(654, 370);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(103, 35);
+            this.button20.TabIndex = 6;
+            this.button20.Text = "display data";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button16);
@@ -270,6 +362,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +388,14 @@
         private Button button16;
         private TextBox textBox1;
         private Button button17;
+        private Button button18;
+        private Button button19;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private Button button20;
     }
 }

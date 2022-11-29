@@ -228,13 +228,65 @@ namespace calculator
 
         private void button17_Click(object sender, EventArgs e)
         {
+            try
+            {
+                conn.Open();
+                string query = "Insert into Student values('sandip','samakhushi','98476767','NIST')";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("saved successfully");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message+"Insertion failed");
+            }
+        }
 
-            conn.Open();
-            string query = "Insert into Student values('sandip','samakhushi','98476767','NIST')";
-            SqlCommand cmd = new SqlCommand(query, conn);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("saved successfully");
-            conn.Close();
+        private void button18_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.Open();
+                string query = "Update Student set name='srijana',address='lalitpur',contact='980000000',college='kist' where id=3" ;
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("updated successfully");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message+"update failed");
+            }
+            
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.Open();
+                string query = "Delete from Student where id=12";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("deleted successfully");
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message+"deletion failed");
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add("1", "ace", "eastblue","012345","kist");
         }
     }
 }
