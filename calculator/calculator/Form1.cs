@@ -286,7 +286,7 @@ namespace calculator
 
         private void button20_Click(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add("1", "ace", "eastblue","012345","kist");
+            dataGridView1.Rows.Add(textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text);
         }
     }
 }
