@@ -39,11 +39,16 @@ namespace employee
         private void button2_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "Insert into emp values('" + textBox2.Text
-                + "','" + textBox3.Text + "','" + textBox4.Text + "')";
-            SqlCommand cmd = new SqlCommand(query, con);
+            string query = "Insert into emp " + "(name,address,salary)" + "values(  @name,@address,@salary)";
+            string query = "Insert into emp " + "(name,address,salary)" + "values(  @name,@address,@salary)";
+
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@name", textBox2.Text);
+            cmd.Parameters.AddWithValue("@address", textBox3.Text);
+            cmd.Parameters.AddWithValue("@salary", textBox4.Text);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("saved successfully");
+            MessageBox.Show("Added successfully");
             con.Close();
         }
 

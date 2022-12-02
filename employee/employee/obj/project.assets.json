@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ace\\employee\\employee\\employee.csproj",
+      "projectUniqueName": "D:\\ace\\c-sharp\\employee\\employee\\employee.csproj",
       "projectName": "employee",
-      "projectPath": "D:\\ace\\employee\\employee\\employee.csproj",
+      "projectPath": "D:\\ace\\c-sharp\\employee\\employee\\employee.csproj",
       "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
-      "outputPath": "D:\\ace\\employee\\employee\\obj\\",
+      "outputPath": "D:\\ace\\c-sharp\\employee\\employee\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
